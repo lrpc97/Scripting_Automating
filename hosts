@@ -1,0 +1,38 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# A collection of database servers in the 'dbservers' group:
+
+[dbservers]
+#postgres0  ansible_host=20.0.53.207
+postgres1  ansible_host=192.168.100
+postgres2  ansible_host=192.168.101
+postgres3  ansible_host=192.168.102
+postgres4  ansible_host=192.168.103
+postgres5  ansible_host=192.168.104
+postgres6  ansible_host=192.168.105
+postgres7  ansible_host=192.169.106
+postgres8  ansible_host=192.168.107
+postgres9  ansible_host=192.168.108
+postgres10 ansible_host=192.168.109
+postgres11 ansible_host=192.168.110
+postgres12 ansible_host=192.168.111
+postgres13 ansible_host=192.168.112
+postgres14 ansible_host=192.168.113
+postgres15 ansible_host=192.168.114
+postgres16 ansible_host=192.168.115
+postgres17 ansible_host=192.168.116
+postgres18 ansible_host=192.168.117
+postgres19 ansible_host=192.168.118
+postgres20 ansible_host-192.168.119
+postgres21 ansible_host=192.168.120
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
